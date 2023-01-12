@@ -1,0 +1,41 @@
+body{
+  background: linear-gradient(123deg, #2E99B0 0%, #2E99B0 40%, #FCD77F calc(40% + 1px), #FCD77F 60%, #FF2E4C calc(60% + 1px), #FF2E4C 75%, #1E1548 calc(75% + 1px), #1E1548 100%);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+}
+p{
+  color: aliceblue;
+  font-size: 20px;
+  margin: 5px;
+}
+#conjunto{
+  display: flex;
+
+}
+.cali{
+  background-color: black;
+  color: azure;
+  border-radius: 5px;
+  height: 75px;
+  margin: 10px;
+  padding: 10px;
+}
+.start{
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.star{
+  font-size: 75px;
+  margin: 20px;
+  padding: 25px;
+  color: #FF2E4C;
+  background-color: unset;
+  border: none;
+}
+
+.star:hover{
+  cursor: pointer;
+}
